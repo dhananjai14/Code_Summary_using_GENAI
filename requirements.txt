@@ -1,0 +1,14 @@
+openai
+tiktoken 
+chromadb
+langchain
+flask
+GitPython
+python-dotenv
+langchain-chroma
+langchain-community
+streamlit
+pyreqs
+# Python 3.8.10
+-e .
+
