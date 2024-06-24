@@ -1,13 +1,23 @@
+ensure==1.0.4
+Flask==3.0.3
+GitPython==3.1.43
+GitPython==3.1.43
+joblib==1.4.2
+langchain==0.2.5
+langchain_chroma==0.1.1
+langchain_community==0.2.5
+numpy==1.24.4
+pandas==2.0.3
+python-dotenv==1.0.1
+PyYAML==6.0.1
+PyYAML==6.0.1
+scikit_learn==1.5.0
+setuptools==56.0.0
+streamlit==1.36.0
 openai
 tiktoken 
 chromadb
-langchain
-flask
-GitPython
 python-dotenv
-langchain-chroma
-langchain-community
-streamlit
 pyreqs
 # Python 3.8.10
 -e .

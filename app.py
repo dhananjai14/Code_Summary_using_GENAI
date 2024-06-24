@@ -56,8 +56,8 @@ def main():
             answer = llm(user_question)
             st.write(answer['answer'])
     if st.button('Clear repository database'):
-        # shutil.rmtree(os.path.join(os.getcwd, 'db'))
-        # shutil.rmtree(os.path.join(os.getcwd, 'repo'))
+        # path = os.path.join(os.getcwd(), 'db')
+        shutil.rmtree(os.path.join(os.getcwd(), 'db'))
         st.write('Repo and DB cleared')
 
     
